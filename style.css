@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    background-color: black;
+    color: rgb(25, 240, 240);
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 25px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 2px solid rgb(148, 98, 5);
+    margin: 2px;
+    cursor: pointer;
+}
+
+.row input{
+    margin: 15px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
